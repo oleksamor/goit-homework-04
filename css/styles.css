@@ -1,0 +1,219 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --modal-overlay-color: #f4f4fd;
+  --hero-background-color: rgba(46, 47, 66, 0.7);
+  --white-background: #fff;
+  --modal-background: #fcfcfc;
+
+  --primary-font: "Roboto";
+  --secondary-font: "Raleway";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  font-weight: 500;
+  background-color: var(--white-background);
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+a {
+  color: currentColor;
+}
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 24px;
+  padding: 0px;
+}
+.studio-color {
+  color: var(--dark-color);
+}
+.studio-color-footer {
+  color: var(--modal-overlay-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.phone-mail {
+  font-style: normal;
+}
+.contact-phone-mail {
+  color: var(--text-color);
+}
+
+.contact-phone-mail:hover,
+.contact-phone-mail:focus {
+  color: var(--pressed-state-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menu-link {
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.hero {
+  background-color: var(--dark-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+  text-align: center;
+}
+
+.hero-button {
+  font-weight: 500;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/**
+  |============================
+  | Feature
+  |============================
+*/
+.feature,
+.thumba-title {
+  visibility: hidden;
+}
+
+/**
+  |============================
+  | action
+  |============================
+*/
+
+.item-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+/**
+  |============================
+  | team
+  |============================
+*/
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+/* ====== thumba ========= */
+
+.item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.item-txt {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/**
+  |============================
+  | thumba
+  |============================
+*/
+.thumba-button {
+  padding: 12px 24px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background-color: var(--modal-overlay-color);
+  font-family: var(--primary-font), sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  cursor: pointer;
+}
+.thumba-button:hover,
+.thumba-button:focus {
+  background-color: var(--pressed-state-color);
+  color: #ffffff;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer-content {
+  background: var(--dark-color);
+}
+
+.footer-text {
+  color: var(--white-background); /* text-align: center; */
+}
