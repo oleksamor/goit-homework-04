@@ -170,9 +170,32 @@ body {
   | Feature
   |============================
 */
-.feature,
-.thumba-title {
-  visibility: hidden;
+.feature {
+  padding: 120px 0;
+
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding:...nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+}
+.feature-item {
+  width: 264px;
+  margin-right: 24px;
+}
+
+.feature-item:last-child {
+  margin-right: 0;
 }
 
 /**
@@ -197,11 +220,11 @@ body {
 */
 
 .team {
-  background-color: #f4f4fd;
+  background-color:var(--modal-overlay-color);
 }
 
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--white-background);
 }
 /* ====== thumba ========= */
 
@@ -211,6 +234,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 
 .item-txt {
