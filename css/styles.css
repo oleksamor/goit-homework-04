@@ -300,13 +300,14 @@ body {
   |============================
 */
 .thumba {
-  padding-top: 96px 120px;
+  padding: 96px 120px;
 }
 
 .thumba-list {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px 
 }
 
 /* .thumba-item {
@@ -336,7 +337,7 @@ body {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 .card-box {
   background: var(--white-background);
