@@ -59,6 +59,10 @@ body {
 
 .main-nav {
   display: flex;
+  align-items: center;
+}
+.header-line {
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .logotype {
@@ -284,9 +288,7 @@ body {
   | portfolio
   |============================
 */
-.portfolio-header {
-  border-bottom: 1px solid var(--accent-color);
-}
+
 /**
   |============================
   | thumba
