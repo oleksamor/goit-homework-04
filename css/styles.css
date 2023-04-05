@@ -69,11 +69,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
   padding: 0px;
+  margin-right: 76px;
 }
 .studio-color {
   color: var(--dark-color);
@@ -250,9 +247,20 @@ border-radius: 0px 0px 4px 4px;
 .team-item {
   padding: 32px 0;
 }
-
-
-
+/**
+  |============================
+  | footer
+  |============================
+*/
+.footer-content {
+  background-color: var(--dark-color);
+  padding: 100px 0;
+}
+.footer-text {
+  width: 264px;
+  margin-top: 16px;
+  color: var(--accent-color);
+}
 
 /* ====== thumba ========= */
 
@@ -271,12 +279,34 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
+/**
+  |============================
+  | portfolio
+  |============================
+*/
+.portfolio-header{
+  border-bottom: 1px solid var(--accent-color)
+}
 /**
   |============================
   | thumba
   |============================
 */
+.thumba {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.thumba-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.thumba-item {
+
+}
+
 .thumba-button {
   padding: 12px 24px;
   border: 1px solid var(--accent-color);
@@ -296,6 +326,21 @@ border-radius: 0px 0px 4px 4px;
   color: #ffffff;
 }
 
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  margin-top: 72px;
+}
+.card-box {
+  background: var(--white-background);
+}
+.card-content {
+  padding: 32px 0 32px 16px;
+  border: 1px solid var(--accent-color);
+  border-bottom: none;
+}
 /**
   |============================
   | Footer
