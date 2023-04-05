@@ -213,6 +213,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 
 .action {
@@ -221,7 +222,6 @@ body {
 
 .action-list {
   display: flex;
-  margin-top: 72px;
   gap: 24px;
 }
 
