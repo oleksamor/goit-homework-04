@@ -147,9 +147,10 @@ body {
 }
 
 .hero-button {
+  display: block;
   font-family: var(--primary-font), sans-serif;
   font-weight: 500;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   background-color: var(--primary-brand-color);
   color: var(--white-background);
