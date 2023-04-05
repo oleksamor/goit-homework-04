@@ -300,8 +300,7 @@ body {
   |============================
 */
 .thumba {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 96px 120px;
 }
 
 .thumba-list {
@@ -310,8 +309,8 @@ body {
   gap: 24px;
 }
 
-.thumba-item {
-}
+/* .thumba-item {
+} */
 
 .thumba-button {
   padding: 12px 24px;
