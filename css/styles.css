@@ -307,7 +307,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px 
+  margin-bottom: 72px;
 }
 
 /* .thumba-item {
@@ -330,6 +330,7 @@ body {
 .thumba-button:focus {
   background-color: var(--pressed-state-color);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .card-set {
