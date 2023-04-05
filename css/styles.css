@@ -261,9 +261,13 @@ body {
   background-color: var(--dark-color);
   padding: 100px 0;
 }
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-text {
-  width: 264px;
-  margin-top: 16px;
+  max-width: 264px;
   color: var(--accent-color);
 }
 
