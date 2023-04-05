@@ -136,14 +136,14 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-background);
-    max-width: 496px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 48px;
+  max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
-  font-family: var(--primary-font) sans-serif;
+  font-family: var(--primary-font), sans-serif;
   font-weight: 500;
   width: 169px;
   height: 56px;
@@ -153,7 +153,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   line-height: 1.5;
-  border: none;  
+  border: none;
   cursor: pointer;
 }
 
@@ -169,7 +169,6 @@ body {
 */
 .feature {
   padding: 120px 0;
-
 }
 .visually-hidden {
   position: absolute;
@@ -177,7 +176,8 @@ body {
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: nowrap;
+  padding: 0;
+  white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -211,7 +211,7 @@ body {
 }
 
 .action {
- padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .action-list {
@@ -224,7 +224,6 @@ body {
   margin-right: 24px;
 } */
 
-
 /**
   |============================
   | team
@@ -235,13 +234,14 @@ body {
   text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color:var(--modal-overlay-color);
+  background-color: var(--modal-overlay-color);
 }
 
 .team-card {
   background-color: var(--white-background);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -284,8 +284,8 @@ border-radius: 0px 0px 4px 4px;
   | portfolio
   |============================
 */
-.portfolio-header{
-  border-bottom: 1px solid var(--accent-color)
+.portfolio-header {
+  border-bottom: 1px solid var(--accent-color);
 }
 /**
   |============================
@@ -304,7 +304,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .thumba-item {
-
 }
 
 .thumba-button {

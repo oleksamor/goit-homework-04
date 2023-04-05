@@ -8,5 +8,8 @@
     "editor.cursorBlinking": "blink",
     "editor.guides.bracketPairs": "active",
     "editor.guides.highlightActiveIndentation": true,
-    "workbench.tree.renderIndentGuides": "none"
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
 }
