@@ -338,15 +338,14 @@ body {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  /* margin-top: 72px; */
 }
 .card-box {
   background: var(--white-background);
 }
 .card-content {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
   border: 1px solid var(--accent-color);
-  border-bottom: none;
+  border-top: none;
 }
 /**
   |============================
