@@ -191,10 +191,11 @@ body {
 
 .item {
   display: flex;
+  gap: 24px;
 }
 .feature-item {
   width: 264px;
-  gap: 24px;
+  
 }
 
 
