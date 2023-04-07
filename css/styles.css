@@ -41,7 +41,6 @@ ul {
 }
 
 body {
-  font-weight: 500;
   background-color: var(--white-background);
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -147,7 +146,6 @@ body {
 }
 
 .hero-button {
-  display: block;
   font-family: var(--primary-font), sans-serif;
   font-weight: 500;
   min-width: 169px;
@@ -193,10 +191,10 @@ body {
   display: flex;
   gap: 24px;
 }
-.feature-item {
+/* .feature-item {
   width: 264px;
   
-}
+} */
 
 
 /**
