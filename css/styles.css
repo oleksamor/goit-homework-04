@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .header-line {
   border-bottom: 1px solid var(--accent-color);
 }
@@ -75,9 +76,11 @@ body {
   padding: 0px;
   margin-right: 76px;
 }
+
 .studio-color {
   color: var(--dark-color);
 }
+
 .studio-color-footer {
   color: var(--modal-overlay-color);
 }
@@ -99,6 +102,7 @@ body {
   align-items: center;
   margin-right: auto;
 }
+
 .menu {
   display: flex;
   gap: 40px;
@@ -132,7 +136,9 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/icons/Dark-bg.png), url(../images/icons/hero.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/icons/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -195,6 +201,7 @@ body {
   display: flex;
   gap: 24px;
 }
+
 .feature-item {
   width: calc((100%-3 * 24px) / 4);
 }
@@ -247,6 +254,7 @@ body {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
+
 /**
   |============================
   | footer
@@ -262,6 +270,7 @@ body {
   margin-bottom: 16px;
   margin-right: 0;
 }
+
 .footer-text {
   max-width: 264px;
   color: var(--accent-color);
@@ -284,6 +293,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 /**
   |============================
   | portfolio
@@ -323,6 +333,7 @@ body {
   color: var(--primary-brand-color);
   cursor: pointer;
 }
+
 .thumba-button:hover,
 .thumba-button:focus {
   background-color: var(--pressed-state-color);
@@ -336,15 +347,18 @@ body {
   row-gap: 48px;
   column-gap: 24px;
 }
+
 .card-box {
   background: var(--white-background);
   width: calc((100% - 2 * 24px) / 3);
 }
+
 .card-content {
   padding: 32px 16px;
   border: 1px solid var(--accent-color);
   border-top: none;
 }
+
 /**
   |============================
   | Footer
@@ -356,5 +370,6 @@ body {
 }
 
 .footer-text {
-  color: var(--white-background); /* text-align: center; */
+  color: var(--white-background);
+  /* text-align: center; */
 }
