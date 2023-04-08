@@ -104,10 +104,6 @@ body {
   gap: 40px;
 }
 
-/* .header-item + .header-item {
-  margin-left: 40px;
-} */
-
 .menu-link {
   display: block;
   padding-top: 24px;
@@ -132,6 +128,14 @@ body {
   background-color: var(--dark-color);
   text-align: center;
   padding: 188px 0;
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/icons/Dark-bg.png), url(../images/icons/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -192,9 +196,8 @@ body {
   gap: 24px;
 }
 .feature-item {
-  width: calc((100%-3*24px)/4);
+  width: calc((100%-3 * 24px) / 4);
 }
-
 
 /**
   |============================
@@ -335,7 +338,7 @@ body {
 }
 .card-box {
   background: var(--white-background);
-  width: calc((100% - 2*24px)/3);
+  width: calc((100% - 2 * 24px) / 3);
 }
 .card-content {
   padding: 32px 16px;
