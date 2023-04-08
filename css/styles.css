@@ -191,10 +191,9 @@ body {
   display: flex;
   gap: 24px;
 }
-/* .feature-item {
-  width: 264px;
-  
-} */
+.feature-item {
+  width: calc((100%-3*24px)/4);
+}
 
 
 /**
@@ -258,6 +257,7 @@ body {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 .footer-text {
   max-width: 264px;
@@ -293,7 +293,7 @@ body {
   |============================
 */
 .thumba {
-  padding: 96px 120px;
+  padding: 120px 0;
 }
 
 .thumba-list {
@@ -304,6 +304,7 @@ body {
 }
 
 /* .thumba-item {
+  width: calc((100%-8*24px)/9);
 } */
 
 .thumba-button {
@@ -334,6 +335,7 @@ body {
 }
 .card-box {
   background: var(--white-background);
+  width: calc((100% - 2*24px)/3);
 }
 .card-content {
   padding: 32px 16px;
