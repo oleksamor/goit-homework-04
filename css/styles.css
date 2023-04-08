@@ -206,6 +206,19 @@ body {
   width: calc((100%-3 * 24px) / 4);
 }
 
+.feature-item::before {
+  content: "";
+  display: block;
+  height: 112px;
+  background: var(--modal-overlay-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
 /**
   |============================
   | action
