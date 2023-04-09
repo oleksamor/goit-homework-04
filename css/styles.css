@@ -209,51 +209,18 @@ body {
 .feature-icon {
   width: 64px;
   height: 64px;
-  fill:var(--dark-color) ;
+  fill: var(--dark-color);
 }
+
 .feature-bgr-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
   height: 112px;
-  background: #F4F4FD;
-border-radius: 4px;
-}
-/* 
-.feature-item::before {
-  content: "";
-  display: block;
-  height: 112px;
   background: var(--modal-overlay-color);
   border-radius: 4px;
-  margin-bottom: 8px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
-
-.item-strategy::before {
-
-  
-
-}
-
-.item-punctuality::before {
-  background-image: url(../index.html/images/icons/);
-
-}
-
-item-diligence::before {
-  background-image: url(../index.html/images/icons/);
-
-}
-
-item-technologies::before {
-  background-image: url(../index.html/images/icons/);
-
-} */
-
 
 /**
   |============================
@@ -302,6 +269,56 @@ item-technologies::before {
 .team-item {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+}
+
+/**
+  |============================
+  | Customers
+  |============================
+*/
+.customers {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: var(--modal-overlay-color);
+}
+
+.customers-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.customers-item {
+  width: calc((100%-5 * 24px) / 6);
+  
+}
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--subtle-text-color);
+    border-radius: 4px;
+
+}
+.svg-link {
+width: 104px;
+height: 56px;
+fill: var(--subtle-text-color);
+}
+.customers-icon {
+
 }
 
 /**
