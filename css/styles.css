@@ -206,6 +206,21 @@ body {
   width: calc((100%-3 * 24px) / 4);
 }
 
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  fill:var(--dark-color) ;
+}
+.feature-bgr-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  height: 112px;
+  background: #F4F4FD;
+border-radius: 4px;
+}
+/* 
 .feature-item::before {
   content: "";
   display: block;
@@ -217,6 +232,27 @@ body {
   background-size: contain;
   background-position: center;
 }
+
+.item-strategy::before {
+
+  
+
+}
+
+.item-punctuality::before {
+  background-image: url(../index.html/images/icons/);
+
+}
+
+item-diligence::before {
+  background-image: url(../index.html/images/icons/);
+
+}
+
+item-technologies::before {
+  background-image: url(../index.html/images/icons/);
+
+} */
 
 
 /**
