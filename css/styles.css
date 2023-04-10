@@ -322,6 +322,14 @@ fill: var(--subtle-text-color);
 .customers-icon {
 
 }
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--pressed-state-color);
+}
+.svg-link:hover,
+.svg-link:focus {
+  fill: var(--pressed-state-color);
+}
 
 /**
   |============================
