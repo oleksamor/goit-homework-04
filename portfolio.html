@@ -1,182 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!-- фонти -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    />
 
     <!-- нормализатор -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
 
     <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header class="header-line">
-        <div class="container main-nav">
+      <div class="container main-nav">
+        <!-- logo -->
+        <nav class="page-nav">
+          <!-- logo -->
+          <a class="logotype link" href="./index.html">
+            WEB<span class="studio-color">Studio</span>
+          </a>
 
-            <!-- logo -->
-            <nav class="page-nav">
+          <ul class="menu list">
+            <li class="header-item">
+              <a class="link menu-link menu-color" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="link menu-link menu-color" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="link menu-link menu-color" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- tel mail -->
+        <address class="phone-mail">
+          <ul class="menu list">
+            <li class="header-item">
+              <a
+                class="link menu-link contacts-color"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com</a
+              >
+            </li>
 
-                <!-- logo -->
-                <a class="logotype link" href="./index.html">
-                    WEB<span class="studio-color">Studio</span>
-                </a>
-
-
-                <ul class="menu list">
-                    <li class="header-item">
-                        <a class="link menu-link menu-color" href="./index.html">Studio</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="link menu-link menu-color" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="link menu-link menu-color" href="">Contacts</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- tel mail -->
-            <address class="phone-mail">
-
-                <ul class="menu list">
-                    <li class="header-item">
-                        <a class="link menu-link contacts-color" href="mailto:info@devstudio.com">
-                            info@devstudio.com</a>
-                    </li>
-
-                    <li class="header-item">
-                        <a class="link menu-link contacts-color" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-
-            </address>
-        </div>
+            <li class="header-item">
+              <a class="link menu-link contacts-color" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
-
-
     <main>
-        <section class="thumba">
-            <div class="container">
-                <h1 class="visually-hidden">Filters</h1>
-                <!-- filter button -->
+      <section class="thumba">
+        <div class="container">
+          <h1 class="visually-hidden">Filters</h1>
+          <!-- filter button -->
 
-                <ul class="list thumba-list">
-                    <li class="thumba-item"><button class="thumba-button" type="button">All</button></li>
-                    <li class="thumba-item"><button class="thumba-button" type="button">Web Site</button></li>
-                    <li class="thumba-item"><button class="thumba-button" type="button">App</button></li>
-                    <li class="thumba-item"><button class="thumba-button" type="button">Design</button></li>
-                    <li class="thumba-item"><button class="thumba-button" type="button">Marketing</button></li>
-                </ul>
-                <!-- images -->
+          <ul class="list thumba-list">
+            <li class="thumba-item">
+              <button class="thumba-button" type="button">All</button>
+            </li>
+            <li class="thumba-item">
+              <button class="thumba-button" type="button">Web Site</button>
+            </li>
+            <li class="thumba-item">
+              <button class="thumba-button" type="button">App</button>
+            </li>
+            <li class="thumba-item">
+              <button class="thumba-button" type="button">Design</button>
+            </li>
+            <li class="thumba-item">
+              <button class="thumba-button" type="button">Marketing</button>
+            </li>
+          </ul>
+          <!-- images -->
 
-                <ul class="list card-set">
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/banking-app.jpg"
-                                alt="Banking App Interface Concept" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Banking App Interface Concept</h2>
-                                <p class="item-txt">App</p>
-                            </div>
-                        </a>
-                    </li>
+          <ul class="list card-set">
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/banking-app.jpg"
+                  alt="Banking App Interface Concept"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Banking App Interface Concept</h2>
+                  <p class="item-txt">App</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        
-                        <a class="link" href=""> <img src="./images/portfolio/cashless-paiment.jpg"
-                                alt="the hand holding the mobile phone in front of the cash terminal" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Cashless Payment</h2>
-                                <p class="item-txt">Marketing</p>
-                            </div>
-                        </a>
-                    </li>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/cashless-paiment.jpg"
+                  alt="the hand holding the mobile phone in front of the cash terminal"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Cashless Payment</h2>
+                  <p class="item-txt">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/meditaion-app.jpg"
-                                alt="mobile phone next to personal computer" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Meditation App</h2>
-                                <p class="item-txt">App</p>
-                            </div>
-                        </a>
-                    </li>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/meditaion-app.jpg"
+                  alt="mobile phone next to personal computer"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Meditation App</h2>
+                  <p class="item-txt">App</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/taxi-service.jpg"
-                                alt="the hand holding the steering wheel of the car" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Taxi Service</h2>
-                                <p class="item-txt">Marketing</p>
-                            </div>
-                        </a>
-                    </li>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/taxi-service.jpg"
+                  alt="the hand holding the steering wheel of the car"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Taxi Service</h2>
+                  <p class="item-txt">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/screen-illustrations.jpg"
-                                alt="Screen Illustrations" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Screen Illustrations</h2>
-                                <p class="item-txt">Design</p>
-                            </div>
-                        </a>
-                    </li>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/screen-illustrations.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Screen Illustrations</h2>
+                  <p class="item-txt">Design</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/online-courses.jpg"
-                                alt="a woman in the glasses, orange jacket keeps the mobile on a stretched hand"
-                                width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Online Courses</h2>
-                                <p class="item-txt">Marketing</p>
-                            </div>
-                        </a>
-                    </li>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/online-courses.jpg"
+                  alt="a woman in the glasses, orange jacket keeps the mobile on a stretched hand"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Online Courses</h2>
+                  <p class="item-txt">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/instagram-stories-concept.jpg"
-                                alt="image layouts of instagram windows" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Instagram Stories Concept</h2>
-                                <p class="item-txt">Design</p>
-                            </div>
-                        </a>
-                    </li>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/instagram-stories-concept.jpg"
+                  alt="image layouts of instagram windows"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Instagram Stories Concept</h2>
+                  <p class="item-txt">Design</p>
+                </div>
+              </a>
+            </li>
 
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/organic-food.jpg"
+                  alt="woman with bag with vegetables and fruits"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Organic Food</h2>
+                  <p class="item-txt">Web Site</p>
+                </div>
+              </a>
+            </li>
 
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/organic-food.jpg"
-                                alt="woman with bag with vegetables and fruits" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Organic Food</h2>
-                                <p class="item-txt">Web Site</p>
-                            </div>
-                        </a>
-                    </li>
-
-
-                    <li class="card-box">
-                        <a class="link" href=""> <img src="./images/portfolio/fresh-coffee.jpg"
-                                alt="the barist pour the cream into a cup of coffee" width="360">
-                            <div class="card-content">
-                                <h2 class="item-subtitle">Fresh Coffee</h2>
-                                <p class="item-txt">Web Site</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            <li class="card-box">
+              <a class="link card-link" href="">
+                <img
+                  src="./images/portfolio/fresh-coffee.jpg"
+                  alt="the barist pour the cream into a cup of coffee"
+                  width="360"
+                />
+                <div class="card-content">
+                  <h2 class="item-subtitle">Fresh Coffee</h2>
+                  <p class="item-txt">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
@@ -227,5 +274,6 @@
           </ul>
         </div>
       </div>
-    </footer>   
-</body>
+    </footer>
+  </body>
+</html>
