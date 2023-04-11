@@ -63,7 +63,7 @@ body {
 
 .header-line {
   border-bottom: 1px solid var(--accent-color);
-  background: var(--white-background) #FFFFFF;
+  background: var(--white-background);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -205,7 +205,7 @@ body {
 }
 
 .feature-item {
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100% - 3*24px) / 4);
 }
 
 .feature-icon {
@@ -310,6 +310,7 @@ body {
 .socmedia-link:focus {
   background-color: var(--pressed-state-color);
 }
+
 /**
   |============================
   | Customers
@@ -338,8 +339,7 @@ body {
 }
 
 .customers-item {
-  width: calc((100%-5 * 24px) / 6);
-
+  width: calc((100% - 5*24px) / 6);
 }
 
 .customers-link {
