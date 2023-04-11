@@ -310,7 +310,10 @@ body {
 .socmedia-link:focus {
   background-color: var(--pressed-state-color);
 }
-
+.socmedia-bgr:hover, 
+.socmedia-bgr:focus {
+  background-color: #31d0aa;
+}
 /**
   |============================
   | Customers
@@ -476,6 +479,7 @@ body {
 .footer-box {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .footer-text {
@@ -483,9 +487,9 @@ body {
   color: var(--accent-color);
 }
 
-.footer-soc-media {
+/* .footer-soc-media {
   margin-left: 120px;
-}
+} */
 
 .footer-socmedia-text {
   font-weight: 500;
