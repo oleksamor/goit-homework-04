@@ -291,14 +291,8 @@ body {
   height: 40px;
 }
 
-.socmedia-link:hover,
-.socmedia-link:focus {
-  background-color: var(--pressed-state-color);
-}
 
 .socmedia-icon {
-  /* width: 16px;
-  height: 16px; */
   fill: var(--modal-overlay-color);
 }
 
@@ -312,6 +306,10 @@ body {
   background-color: var(--primary-brand-color);
 }
 
+.socmedia-link:hover,
+.socmedia-link:focus {
+  background-color: var(--pressed-state-color);
+}
 /**
   |============================
   | Customers
