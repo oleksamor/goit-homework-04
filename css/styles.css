@@ -291,6 +291,11 @@ body {
   height: 40px;
 }
 
+.socmedia-link:hover,
+.socmedia-link:focus {
+  background-color: var(--pressed-state-color);
+}
+
 .socmedia-icon {
   /* width: 16px;
   height: 16px; */
@@ -304,7 +309,7 @@ body {
   border-radius: 50%;
   width: 100%;
   height: 100%;
-  background-color:var(--primary-brand-color);
+  background-color: var(--primary-brand-color);
 }
 
 /**
