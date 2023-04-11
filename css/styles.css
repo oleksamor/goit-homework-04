@@ -10,7 +10,7 @@
   --hero-background-color: rgba(46, 47, 66, 0.7);
   --white-background: #fff;
   --modal-background: #fcfcfc;
-
+  --color-customer: rgb(175, 177, 184);
   --primary-font: "Roboto";
   --secondary-font: "Raleway";
 }
@@ -325,17 +325,17 @@ body {
 
 .customers-title {
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 
 .customers-list {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
 }
 
 .customers-item {
@@ -350,13 +350,15 @@ body {
   height: 88px;
   border: 1px solid var(--subtle-text-color);
   border-radius: 4px;
+  color: #afb1b8;
+  ;
 
 }
 
 .svg-link {
-  width: 104px;
-  height: 56px;
-  fill: var(--subtle-text-color);
+  /* width: 104px;
+  height: 56px; */
+  fill: currentColor;
 }
 
 /* .customers-icon {} */
@@ -364,6 +366,7 @@ body {
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--pressed-state-color);
+  color: #404bbf;
 }
 
 .svg-link:hover,
